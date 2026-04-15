@@ -22,12 +22,12 @@ Methods: paste text, upload file (.pdf/.docx/.txt/.md), describe experience
 
 ### 1. Overall Score (10-point scale)
 
-| Score | Standard |
-|-------|----------|
-| 9-10 | Complete info, quantified data, almost no red flags |
-| 7-8 | High quality, minor room for improvement |
-| 5-6 | Obvious issues (no quantification, vague tech stack, generic descriptions) |
-| 3-4 | Multiple high-risk red flags |
+| Score | Standard                                                                   |
+| ----- | -------------------------------------------------------------------------- |
+| 9-10  | Complete info, quantified data, almost no red flags                        |
+| 7-8   | High quality, minor room for improvement                                   |
+| 5-6   | Obvious issues (no quantification, vague tech stack, generic descriptions) |
+| 3-4   | Multiple high-risk red flags                                               |
 
 ### 2. Highlight Identification
 
@@ -49,6 +49,16 @@ Output position match analysis and recommended keywords
 
 - Chinese resume → Chinese output
 - English resume → English output
+
+## Quick Start
+
+Install the skill in Claude Code:
+
+```
+git clone https://github.com/chenchen112/resume-doctor.git ~/.claude/skills/resume-doctor
+```
+
+Then describe your resume or upload a file to get started.
 
 ## How to Use
 
