@@ -1,9 +1,0 @@
-{
-  "expectations": [
-    {"text": "使用英文输出分析", "passed": true, "evidence": "All output is in English"},
-    {"text": "输出包含整体评分", "passed": true, "evidence": "Overall Rating: 7.0/10"},
-    {"text": "输出包含亮点识别和减分项", "passed": true, "evidence": "## 2. What Shines (Strengths) and ## 3. Red Flags (Weaknesses)"},
-    {"text": "包含ATS关键词建议", "passed": true, "evidence": "## 5. ATS Keywords Analysis"}
-  ],
-  "summary": {"passed": 4, "failed": 0, "total": 4, "pass_rate": 1.0}
-}
