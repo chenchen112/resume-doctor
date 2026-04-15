@@ -4,19 +4,37 @@
     {
       "id": 1,
       "prompt": "帮我看看这份后端开发简历怎么样：工作3年，用过Java、Spring、MySQL、Redis，做过电商系统。",
-      "expected_output": "应包含整体评分、亮点识别、减分项警告、优化建议、ATS关键词分析五个部分",
+      "expected_output": "应包含：1) 整体评分(7-8分)，2) 识别高并发/分布式亮点，3) 指出量化数据不足，4) 提供具体优化示例，5) ATS关键词分析包含Java/Spring/MySQL/Redis",
       "files": []
     },
     {
       "id": 2,
       "prompt": "分析以下英文简历：I'm a senior frontend engineer with 5 years of experience, proficient in React, TypeScript, and Node.js. Led the development of a real-time chat application serving 100k daily active users.",
-      "expected_output": "应使用英文输出完整分析，包含ATS关键词建议",
+      "expected_output": "应使用英文输出，包含：1) 评分8-9分，2) 识别100k DAU为亮点，3) 提供React/TypeScript/Node.js的ATS关键词，4) 建议补充具体技术细节",
       "files": []
     },
     {
       "id": 3,
       "prompt": "我的简历：负责公司后台管理系统开发，使用Vue.js。帮我看看有什么可以优化的地方",
-      "expected_output": "应识别出'负责...开发'这种模糊描述作为减分项，并给出具体的量化改进建议",
+      "expected_output": "应识别出'负责...开发'为模糊描述减分项，给出具体优化：'主导后台管理系统重构(Vue.js+Element UI)，用户操作效率提升40%'",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "请分析这份算法工程师简历：工作2年，主要用Python和TensorFlow，做过推荐系统，但没有具体数据。",
+      "expected_output": "应指出：1) 评分5-6分(缺少量化数据)，2) 建议补充模型效果指标，3) ATS关键词包含Python/TensorFlow，4) 推荐系统经验为亮点",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "简历信息不足，只有'前端开发'四个字，能分析吗？",
+      "expected_output": "应识别信息严重不足，指出需要补充：工作年限、项目经验、技术栈等关键信息，并给出补充建议",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "帮我优化这份DevOps简历：使用Docker和K8s，负责CI/CD流水线建设。",
+      "expected_output": "应提供：1) 容器化/自动化亮点识别，2) 建议补充具体指标(如部署频率、故障恢复时间)，3) ATS关键词包含Docker/K8s/CI/CD",
       "files": []
     }
   ]
