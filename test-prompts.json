@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "prompt": "帮我看看这份简历：后端开发，3年经验，用过Java、Spring、MySQL、Redis，做过电商系统。",
+    "expected": "五步分析：评分、亮点、减分项、优化建议、ATS关键词；最后询问是否需要生成优化后简历和面试问题"
+  },
+  {
+    "id": 2,
+    "prompt": "我是前端，2年经验，负责公司后台管理系统开发，使用Vue.js。帮我看看有什么可以优化的地方",
+    "expected": "识别'负责'为减分项，给出量化优化示例，最后询问是否需要生成优化后简历"
+  },
+  {
+    "id": 3,
+    "prompt": "分析以下英文简历：Senior frontend engineer, 5 years experience, React, TypeScript, Node.js, led real-time chat app serving 100k DAU",
+    "expected": "英文输出完整五步分析，ATS关键词建议，识别岗位匹配度"
+  }
+]

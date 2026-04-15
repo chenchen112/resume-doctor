@@ -1,0 +1,23 @@
+{
+  "skill_name": "resume-doctor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我看看这份后端开发简历怎么样：工作3年，用过Java、Spring、MySQL、Redis，做过电商系统。",
+      "expected_output": "应包含整体评分、亮点识别、减分项警告、优化建议、ATS关键词分析五个部分",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "分析以下英文简历：I'm a senior frontend engineer with 5 years of experience, proficient in React, TypeScript, and Node.js. Led the development of a real-time chat application serving 100k daily active users.",
+      "expected_output": "应使用英文输出完整分析，包含ATS关键词建议",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我的简历：负责公司后台管理系统开发，使用Vue.js。帮我看看有什么可以优化的地方",
+      "expected_output": "应识别出'负责...开发'这种模糊描述作为减分项，并给出具体的量化改进建议",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"text": "识别出'负责...开发'为模糊描述的减分项", "passed": true, "evidence": "描述过于模糊 (严重): '负责公司后台管理系统开发，使用Vue.js'"},
+    {"text": "给出了具体可量化的优化建议", "passed": true, "evidence": "方案A/B/C都包含量化指标（200+员工、5000+请求、40%提升）"},
+    {"text": "输出了优化后的描述示例", "passed": true, "evidence": "方案A/B/C分别给出了优化后的简历片段"}
+  ],
+  "summary": {"passed": 3, "failed": 0, "total": 3, "pass_rate": 1.0}
+}

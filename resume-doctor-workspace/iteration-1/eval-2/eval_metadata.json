@@ -1,0 +1,22 @@
+{
+  "eval_id": 2,
+  "eval_name": "vague-description-optimization",
+  "prompt": "我的简历：负责公司后台管理系统开发，使用Vue.js。帮我看看有什么可以优化的地方",
+  "assertions": [
+    {
+      "text": "识别出'负责...开发'为模糊描述的减分项",
+      "passed": null,
+      "evidence": null
+    },
+    {
+      "text": "给出了具体可量化的优化建议",
+      "passed": null,
+      "evidence": null
+    },
+    {
+      "text": "输出了优化后的描述示例",
+      "passed": null,
+      "evidence": null
+    }
+  ]
+}
